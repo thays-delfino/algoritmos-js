@@ -1,0 +1,47 @@
+<!-- Nome: Thays Ramos da Silva Delfino
+     RA: 04261022
+     1CCOA 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+
+<body style="background-color: rgb(180, 180, 180); color: black;">
+
+    <div>
+
+    <b>Logradouro: </b> <input type="text" id="input_logradouro">
+    <br>
+    <br>
+    <b>Número:</b> <input type="text" id="input_numero">
+
+    </div>
+
+    <div>
+
+        <br>
+        <button onclick="msg()">Onde eu moro</button>
+
+        <p id="id_msg"></p>
+
+    </div>
+
+</body>
+
+<script>
+    function msg(){
+        id_msg.innerHTML = "- Seu logradouro é " + input_logradouro.value + "<br>- O número do seu logradouro é " + input_numero.value
+
+    }
+
+</script>
+
+</html>
