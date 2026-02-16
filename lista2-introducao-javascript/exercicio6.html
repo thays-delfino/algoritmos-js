@@ -1,0 +1,56 @@
+<!-- Nome: Thays Ramos da Silva Delfino
+     RA: 04261022
+     1CCOA 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+
+    <style>
+       button{
+            color:black
+        }
+        
+        .buttonred {background-color: rgb(241, 119, 119);}
+        .buttonyellow {background-color: yellow;}
+        .buttongreen {background-color: rgb(83, 207, 83);}
+    </style>
+</head>
+
+<body style="background-color: rgb(219, 217, 217);">
+
+   <button class="button buttonred" onclick="pare()">Pare</button>
+
+    <br>
+    <br>
+    <button class="button buttonyellow" onclick="pense()">Pense</button>
+    <br>
+    <br>
+    <button class="button buttongreen" onclick="siga()">Siga</button>
+    
+    <p id="id_farol"></p>
+    
+</body>
+
+<script>
+
+    function pare(){
+        id_farol.innerHTML = "Pare e aguarde!"
+    }
+
+    function pense(){
+        id_farol.innerHTML = 'Pense se pode seguir ou se deve parar!'
+    }
+
+    function siga(){
+        id_farol.innerHTML = 'Pode seguir adiante.'
+    }
+
+</script>
+
+</html>
